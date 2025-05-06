@@ -20,6 +20,7 @@ public class SpringAiClientApplication implements CommandLineRunner {
     @Override
     public void run(String... args) {
 
+        /*
         //1.initialize()
         var stdioParams = ServerParameters.builder("java")
                 .args(
@@ -46,5 +47,6 @@ public class SpringAiClientApplication implements CommandLineRunner {
 
         //5.end
         mcpClient.closeGracefully();
+         */
     }
 }
